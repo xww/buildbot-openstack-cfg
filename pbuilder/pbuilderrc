@@ -1,0 +1,6 @@
+MIRRORSITE=http://repo.beta.server.163.org/debian
+COMPONENTS="main contrib non-free"
+EXTRAPACKAGES="fakeroot vim"
+CCACHEDIR=""
+
+HOOKDIR="/etc/pbuilder/hooks"
