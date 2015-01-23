@@ -1,6 +1,11 @@
-MIRRORSITE=http://repo.beta.server.163.org/debian
+MIRRORSITE=http://ftp.cn.debian.org/debian
+#OTHERMIRROR="deb [trusted=yes] http://115.236.124.229:82/debian wheezy-libvirt-backports main contrib non-free"
+DISTRIBUTION=wheezy
 COMPONENTS="main contrib non-free"
 EXTRAPACKAGES="fakeroot vim"
-CCACHEDIR=""
+CCACHEDIR="/home/debian/pbuilder/ccache"
+DEVFS=yes
+USEDEVPTS=yes
+USEPROC=yes
 
 HOOKDIR="/etc/pbuilder/hooks"
